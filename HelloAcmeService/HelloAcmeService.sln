@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAcmeService", "HelloAcmeService\HelloAcmeService.csproj", "{8B0F53D7-0132-4591-84ED-4CD676A83957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloServiceAClient", "HelloServiceAClient\HelloServiceAClient.csproj", "{1F9092A6-F293-4B34-9081-41127D0059BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B0F53D7-0132-4591-84ED-4CD676A83957} = {8B0F53D7-0132-4591-84ED-4CD676A83957}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B0F53D7-0132-4591-84ED-4CD676A83957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0F53D7-0132-4591-84ED-4CD676A83957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0F53D7-0132-4591-84ED-4CD676A83957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0F53D7-0132-4591-84ED-4CD676A83957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9092A6-F293-4B34-9081-41127D0059BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9092A6-F293-4B34-9081-41127D0059BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9092A6-F293-4B34-9081-41127D0059BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9092A6-F293-4B34-9081-41127D0059BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

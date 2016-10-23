@@ -2,6 +2,24 @@
 Thumbs.db
 ehthumbs.db
 
+# C# build files
+*.suo
+*.dll
+*.pdb
+*.cache
+*.tmp
+*.user
+*.exe
+
+# build folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+
 # Folder config file
 Desktop.ini
 

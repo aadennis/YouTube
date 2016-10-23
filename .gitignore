@@ -4,12 +4,8 @@ ehthumbs.db
 
 # C# build files
 *.suo
-*.dll
-*.pdb
-*.cache
-*.tmp
-*.user
-*.exe
+
+
 
 # build folders
 [Dd]ebug/
